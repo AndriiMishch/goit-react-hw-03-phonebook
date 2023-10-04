@@ -48,8 +48,8 @@ export default class UserForm extends Component {
           <Input
             type="tel"
             name="number"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            title="Enter telephone number (e.g., 123-456-7890)"
+            pattern="[0-9]{10}"
+            title="Enter telephone number (e.g., 1234567890)"
             required
             value={number}
             onChange={this.onHandleChange}
